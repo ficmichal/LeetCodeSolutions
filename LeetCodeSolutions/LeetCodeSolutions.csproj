@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1 - Two Sum\Solution.cs" />
-    <Compile Include="3 - Longest\Solution.cs" />
-    <Compile Include="622 - Design Circular Queue\MyCircularQueue.cs" />
+    <Compile Include="0001 - Two Sum\Solution.cs" />
+    <Compile Include="1266 - Minimum Time Visiting All Points\Solution.cs" />
+    <Compile Include="0014 - Longest Common Prefix\Solution.cs" />
+    <Compile Include="0002 - Add Two Numbers\Solution.cs" />
+    <Compile Include="0003 - Length Of Longest Substring\Solution.cs" />
+    <Compile Include="0622 - Design Circular Queue\MyCircularQueue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

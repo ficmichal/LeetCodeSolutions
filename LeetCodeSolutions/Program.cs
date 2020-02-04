@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace LeetCodeSolutions
+﻿namespace LeetCodeSolutions
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.ReadKey();
+
         }
     }
 }

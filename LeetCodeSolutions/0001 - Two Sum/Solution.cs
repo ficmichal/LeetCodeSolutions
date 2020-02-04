@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace LeetCodeSolutions
 {
-    public class Solution
+    public partial class Solution
     {
         /// <summary>
         ///  Given an array of integers, return indices of the two numbers such that they add up to a specific target.
@@ -14,9 +14,6 @@ namespace LeetCodeSolutions
         /// Because nums[0] + nums[1] = 2 + 7 = 9,
         /// return [0, 1].
         /// </summary>
-        /// <param name="nums"></param>
-        /// <param name="target"></param>
-        /// <returns></returns>
         public int[] TwoSum(int[] nums, int target)
         {
             var numsDict = new Dictionary<int, int> { { nums.First(), 0 } };

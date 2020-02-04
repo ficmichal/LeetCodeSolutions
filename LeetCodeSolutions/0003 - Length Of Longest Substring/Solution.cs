@@ -3,13 +3,11 @@ using System.Collections.Generic;
 
 namespace LeetCodeSolutions
 {
-    public class Solution
+    public partial class Solution
     {
         /// <summary>
         /// Given a string, find the length of the longest substring without repeating characters.
         /// </summary>
-        /// <param name="s"></param>
-        /// <returns></returns>
         public int LengthOfLongestSubstring(string s)
         {
             var sLength = s.Length;
@@ -17,7 +15,7 @@ namespace LeetCodeSolutions
             var j = 0;
             var currentChars = new HashSet<char>();
             var longestSubstringLength = 0;
-            while (i < sLength && j < sLength)
+            while (j < sLength)
             {
                 if(!currentChars.Contains(s[j]))
                 {
