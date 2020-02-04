@@ -21,13 +21,7 @@ namespace LeetCodeSolutions
                 var startPoint = points[i];
                 var finalPoint = points[i + 1];
 
-                var xDist = Math.Abs(finalPoint[0] - startPoint[0]);
-                var yDist = Math.Abs(finalPoint[1] - startPoint[1]);
-
-                var diagonalMove = Math.Min(xDist, yDist);
-                var notDiagonalMove = Math.Abs(yDist - xDist);
-
-                result += diagonalMove + notDiagonalMove;
+                result += Math.Max(Math.Abs(finalPoint[0] - startPoint[0]), Math.Abs(finalPoint[1] - startPoint[1]));
             }
 
             return result;
